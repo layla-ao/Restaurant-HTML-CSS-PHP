@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>projet</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/css/form.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-cente">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">Seat To Eat</a></h1>
+      
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Accueil</a></li>
+          <li><a class="nav-link scrollto" href="#about">A propos</a></li>
+          <li><a class="nav-link scrollto" href="#menu">Menu</a></li>
+          <li><a class="nav-link scrollto" href="#specials">Special</a></li>
+          <li><a class="nav-link scrollto" href="#chefs">Chefs</a></li>
+          <li><a class="nav-link scrollto" href="#gallery">Galerie</a></li>
+          <li><a class="nav-link scrollto" href="#footer">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+      <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex">Réserver table</a>
+      <a href="livraison.html" class="book-a-table-btn scrollto d-none d-lg-flex">Délivré</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
+      <div class="row">
+        <div class="col-lg-8">
+          <h1>Bienvenu à <span>Seat To Eat</span></h1>
+          <h2></h2>
+
+          <div class="btns">
+            <a href="#menu" class="btn-menu animated fadeInUp scrollto">Notre Menu</a>
+            <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">Réserver Table</a>
+          </div>
+        </div>
+  
+
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
+            <div class="about-img">
+              <img src="assets/img/ab.jpeg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>Bienvenue dans notre restaurant</h3>
+            <p class="fst-italic">
+               Un véritable paradis gastronomique où les sens sont comblés et les papilles émerveillées. 
+               Plongez dans une atmosphère chaleureuse et élégante, où chaque détail a été soigneusement pensé 
+               pour vous offrir une expérience culinaire inoubliable.
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> Notre restaurant est niché au cœur d'un cadre enchanteur.</li>
+              <li><i class="bi bi-check-circle"></i> une décoration raffinée qui marie subtilement modernité et tradition.</li>
+              <li><i class="bi bi-check-circle"></i> Les lumières tamisées créent une ambiance intime et conviviale
+                , propice aux moments de partage et de détente. </ul>
+            <p>
+              Réservez dès maintenant et laissez-nous vous emmener dans un voyage culinaire hors du commun.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- ======= Menu Section ======= -->
+    <section id="menu" class="menu section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Menu</h2>
+          <p>Notre Menu</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="menu-flters">
+              <li data-filter="*" class="filter-active">Tous</li>
+              <li data-filter=".filter-plat">Plats</li>
+              <li data-filter=".filter-salads">Salades</li>
+              <li data-filter=".filter-pizza">Pizza</li>
+              <li data-filter=".filter-gateau">Gâteau</li>
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
+          <!-------------------Saladess-------------------->
+          <div class="col-lg-6 menu-item filter-salads">
+            <img src="assets/img/menu/salade/caesar.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Salade Caesar </a><span>10 DT</span>
+            </div>
+            <div class="menu-ingredients">
+              escalope, formage, tomate, laitue, tost
+            </div>
+          </div>
+          <div class="col-lg-6 menu-item filter-salads">
+            <img src="assets/img/menu/salade/greek-salad.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">SaladeGrecque </a><span>13 DT</span>
+            </div>
+            <div class="menu-ingredients">
+              Tomate, Concombre, Poivron, Oignon rouge, Féta, Olive noire
+            </div>
+          </div>
+          <div class="col-lg-6 menu-item filter-salads">
+            <img src="assets/img/menu/salade/salade.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Salade Tunisienne </a><span>8DT</span>
+            </div>
+            <div class="menu-ingredients">
+              Laitue, Tomate, Thon, Formage, Oignon, Olive noire, Oeuf
+            </div>
+          </div>
+          <div class="col-lg-6 menu-item filter-salads">
+            <img src="assets/img/menu/salade/salade2.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Salade Fraîche</a><span>10DT</span>
+            </div>
+            <div class="menu-ingredients">
+              Escalope, Tomate, Laitus, Mayonnaise
+            </div>
+          </div>
+<!-------------------------------------------------Les plaaaatssss------------------------->
+          <div class="col-lg-6 menu-item filter-plat">
+            <img src="assets/img/menu/plats/1.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Boeuf grillé</a><span>40DT</span>
+            </div>
+            <div class="menu-ingredients">
+              Fritte, Salade 
+            </div>
+          </div>
+        
+          <div class="col-lg-6 menu-item filter-plat">
+            <img src="assets/img/menu/plats/3.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Grillade mixte </a><span>30DT</span>
+            </div>
+            <div class="menu-ingredients">
+              Légumes sautés
+            </div>
+          </div>
+        
+          <div class="col-lg-6 menu-item filter-plat">
+            <img src="assets/img/menu/plats/lasagne2.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Lasagne Bolognaise </a><span>19DT</span>
+            </div>
+            <div class="menu-ingredients">
+              Viande hachée, Béchamel, Oignon, Formage
+            </div>
+          </div>
+          <div class="col-lg-6 menu-item filter-plat">
+            <img src="assets/img/menu/plats/lasgn1.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Lasagne Italienne </a><span>50DT</span>
+            </div>
+            <div class="menu-ingredients">
+              Viande hachée, Carotte, Oignon, Organ, Tomate, Huille d'olive, Formage
+            </div>
+          </div>
+          <div class="col-lg-6 menu-item filter-plat">
+            <img src="assets/img/menu/plats/lobster-bisque.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Lobster Bisque</a><span>54DT</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, Deren, Trataro
+            </div>
+          </div>
+          <div class="col-lg-6 menu-item filter-plat">
+            <img src="assets/img/menu/plats/lobster-roll.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Lobster Roll</a><span>70DT</span>
+            </div>
+            <div class="menu-ingredients">
+              trataro, ilede, nerada
+            </div>
+          </div>
+          <div class="col-lg-6 menu-item filter-plat">
+            <img src="assets/img/menu/plats/mer2.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Fruit de mer</a><span>120DT</span>
+            </div>
+            <div class="menu-ingredients">
+              Crevette, Molle, Homard, Langouste
+            </div>
+          </div>
+        
+          <div class="col-lg-6 menu-item filter-plat">
+            <img src="assets/img/menu/plats/mmmm.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Viande grillé </a><span>60DT</span>
+            </div>
+            <div class="menu-ingredients">
+              Sos Noire, filede, nerada
+            </div>
+          </div>
+          <div class="col-lg-6 menu-item filter-plat">
+            <img src="assets/img/menu/plats/pasta1.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Pasta Tunisienne </a><span>25DT</span>
+            </div>
+            <div class="menu-ingredients">
+              poulet, spaghetti, tomate, piment, huile d'olive, poivre
+            </div>
+          </div>
+          <div class="col-lg-6 menu-item filter-plat">
+            <img src="assets/img/menu/plats/pasta2.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Pasta carbonara</a><span>52DT</span>
+            </div>
+            <div class="menu-ingredients">
+              Crème frêche, dande, spaghetti, poivre, formage
+            </div>
+          </div>
+          <div class="col-lg-6 menu-item filter-plat">
+            <img src="assets/img/menu/plats/pasta3.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Pasta pesto</a><span>60DT</span>
+            </div>
+            <div class="menu-ingredients">
+              basilic, ail, pignons 
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-plat">
+            <img src="assets/img/menu/plats/yyy.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Cuisse de poulet</a><span>17DT</span>
+            </div>
+            <div class="menu-ingredients">
+              Fritte
+            </div>
+          </div>
+           <!---------------------- pizaa----------------->
+
+          <div class="col-lg-6 menu-item filter-pizza">
+            <img src="assets/img/menu/pizza/bur1.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Burgger poulet </a><span>18DT</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+          <div class="col-lg-6 menu-item filter-pizza">
+            <img src="assets/img/menu/pizza/bur2.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Burgger king</a><span>25DT</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+          <div class="col-lg-6 menu-item filter-pizza">
+            <img src="assets/img/menu/pizza/bur3.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Cheese Burgger </a><span>20DT</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+          <div class="col-lg-6 menu-item filter-pizza">
+            <img src="assets/img/menu/pizza/fruit-de-mer.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Pizza fruit de mer</a><span>45DT</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+          <div class="col-lg-6 menu-item filter-pizza">
+            <img src="assets/img/menu/pizza/margherita.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Pizza margherit</a><span>30DT</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+          <div class="col-lg-6 menu-item filter-pizza">
+            <img src="assets/img/menu/pizza/mexican.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Pizza mexican </a><span>50DT</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+          <div class="col-lg-6 menu-item filter-pizza">
+            <img src="assets/img/menu/pizza/pizza.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Pizza four saison</a><span>40DT</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+          <div class="col-lg-6 menu-item filter-pizza">
+            <img src="assets/img/menu/pizza/pizza1.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Pizza Royal</a><span>30DT</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+          <div class="col-lg-6 menu-item filter-pizza">
+            <img src="assets/img/menu/pizza/royal.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Pizza viande hachée</a><span>35DT</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+      
+          <div class="col-lg-6 menu-item filter-pizza">
+            <img src="assets/img/menu/pizza/sand1.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Sandwich Escalope<span>10DT</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+        
+          <div class="col-lg-6 menu-item filter-pizza">
+            <img src="assets/img/menu/pizza/sand1.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Sandwich viande <span>15DT</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+          
+        <!-------------------Cakeeeeeeeee------------------------------------>
+          <div class="col-lg-6 menu-item filter-gateau">
+            <img src="assets/img/menu/cake/cake.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Cake au citron </a><span>8DT</span>
+            </div>
+            <div class="menu-ingredients">
+            </div>
+          </div>
+          <div class="col-lg-6 menu-item filter-gateau">
+            <img src="assets/img/menu/cake/fondant.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Fondant au chocolat</a><span>12DT</span>
+            </div>
+            <div class="menu-ingredients">
+            </div>
+          </div>
+          <div class="col-lg-6 menu-item filter-gateau">
+            <img src="assets/img/menu/cake/cake1.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Cake au chocolat</a><span>12DT</span>
+            </div>
+            <div class="menu-ingredients">
+            </div>
+          </div>
+          <div class="col-lg-6 menu-item filter-gateau">
+            <img src="assets/img/menu/cake/gateau3.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Cheesecake</a><span>17DT</span>
+            </div>
+            <div class="menu-ingredients">
+            </div>
+          </div>
+          <div class="col-lg-6 menu-item filter-gateau">
+            <img src="assets/img/menu/cake/gateau2.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Gâteaux</a><span>10DT</span>
+            </div>
+            <div class="menu-ingredients">
+            </div>
+          </div>
+          <div class="col-lg-6 menu-item filter-gateau">
+            <img src="assets/img/menu/cake/tiramisu1.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Tiramisu </a><span>9DT</span>
+            </div>
+            <div class="menu-ingredients">
+            </div>
+          </div>
+
+      
+
+
+        </div>
+
+      </div>
+    </section><!-- End Menu Section -->
+
+    <!-- ======= Specials Section ======= -->
+    <section id="specials" class="specials">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Plat Special</h2>
+          <p>Specialement Black Free Day</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Démotiveur</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Salade Végétarienne</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Salade Italienne</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Spécial Fruits de mer</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Démotiveur</h3>
+                    <p class="fst-italic"> Économique et nutritif, le riz est l’aliment parfait qu'on a toujours dans ses placards ! </p>
+                    <p> Riz sauté, salade de riz, jambalaya, sushi burger, riz à la mexicaine, riz au lait... </p>
+                       </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/menu/special/specials-1.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Salade de Fruits Végétarienne</h3>
+                    <p class="fst-italic">mélange harmonieux de fruits frais et juteux,soigneusement sélectionnés pour leur qualité et leur saisonnalité. </p>
+                    <p>Des tranches sucrées de melon juteux, des morceaux de pastèque croquante et des quartiers d'orange juteuse sont disposés avec soin sur un lit de feuilles de menthe fraîche.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/menu/special/specials-2.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+             
+              <div class="tab-pane" id="tab-4">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Salade Italienne</h3>
+                    <p class="fst-italic"> la mozzarella a même surclassé le camembert.</p>
+                    <p>
+                      La Mozzarella est sans doute le fromage italien le plus connu à travers le monde. Elle est produite à partir de lait de bufflonnes (originaires d'Asie) riche en protéines et en calcium.</p></div>
+
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/menu/special/specials-4.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-5">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Spécial Fruits de mer</h3>
+                    <p class="fst-italic"> Servir des légumes crus ou légèrement bouillis pour rester croquants. </p>
+                    <p>Regorgeant de pétoncles, de crevettes ainsi que de généreux morceaux de saumon et relevé de délicieux poireaux, 
+                      ce gratin de la mer promet de vous jeter par terre.</p></div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/menu/special/mer.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Specials Section -->
+
+    <!-- ======= Events Section ======= -->
+    <section id="events" class="events">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Evenement</h2>
+          <p>Organisez vos événements dans notre restaurant
+          </p>
+        </div>
+
+        <div class="events-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/event-birthday.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Fête d'aniversaire</h3>
+                  <div class="price">
+                    <p><span>180DT</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  </ul>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/event-private.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Fête privée                  </h3>
+                  <div class="price">
+                    <p><span>290DT</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  </ul>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/Gmail (2)/table-pour-deux-personnes-feuilles-rose_140725-10010.webp" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Demande de mariage</h3>
+                  <div class="price">
+                    <p><span>100DT</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  </ul>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Events Section -->
+
+    <!-- ======= Book A Table Section ======= -->
+    <section id="book-a-table" class="book-a-table">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Reservation</h2>
+          <p>Réserver une table  </p>
+        </div>
+
+        <form action="forms/reserver.php" method="post" >
+          <div class="book-a-table">
+            <div class="col-lg-4 col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Votre nom" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Votre Email" data-rule="email" data-msg="Please enter a valid email">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+              <input type="text" class="form-control" name="phone" id="phone" placeholder="Votre Téléphone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="text" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="text" class="form-control" name="time" id="time" placeholder="Heure" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="number" class="form-control" name="people" id="people" placeholder="# Nb personne" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+              <div class="validate"></div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-6 form-group mt-3 ">
+
+            <select  class="form-control" name="espace" id="espace">
+              <option>Choisissez votre espace...</option>
+                  <option>Espace 1</option>
+                  <option>Espace 2</option>
+                  <option>Espace 3</option>  
+                  <option>Espace 4</option>
+                  <option>Espace 5</option> 
+                  <option>Espace 6</option> 
+                </select>
+              </div>
+              <span>
+                <div class="rating">
+                  <input type="radio" id="star5" name="rating" value="5">
+                  <label for="star5"></label>
+                  <input type="radio" id="star4" name="rating" value="4">
+                  <label for="star4"></label>
+                  <input type="radio" id="star3" name="rating" value="3">
+                  <label for="star3"></label>
+                  <input type="radio" id="star2" name="rating" value="2">
+                  <label for="star2"></label>
+                  <input type="radio" id="star1" name="rating" value="1">
+                  <label for="star1"></label>
+                </div>
+              </span>
+          
+          <div class="btcenter">
+            <button type="submit" class="col-lg-4 col-md-3 form-group mt-3 book-a-table-btn d-lg-flex">Réserver</button>
+          </div>
+        </form>
+
+      </div>
+    </section><!-- End Book A Table Section -->
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Galerie</h2>
+          <p>Quelques photos de Notre Restaurant          </p>
+        </div>
+      </div>
+
+      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-0">
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/classic-luxury-style-restaurant-with-tables-chairs_140725-9389.webp" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/classic-luxury-style-restaurant-with-tables-chairs_140725-9389.webp" titre="espace 1" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/frame-coffee-shop-display_688125-6.webp" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/frame-coffee-shop-display_688125-6.webp" titre="espace 2" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/modern-restaurant-with-various-places_140725-9587.webp" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/modern-restaurant-with-various-places_140725-9587.webp" titre="espace 3" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/restaurant-hall-with-blue-chairs-decors-wall_140725-8029.webp" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/restaurant-hall-with-blue-chairs-decors-wall_140725-8029.webp" titre="espace 4" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/restaurant-hall-with-round-square-tables-some-chairs-plants_140725-8032.webp" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/restaurant-hall-with-round-square-tables-some-chairs-plants_140725-8032.webp" titre="espace 5" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-1.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/gallery-1.jpg" titre="espace 6" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-2.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/gallery-2.jpg" titre="espace 7" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-3.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/gallery-3.jpg" titre="espace 8" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/Gmail (2)/bar-gens-serveurs-comptoir-bar-beaucoup-alcool-interieur-est-style-moderne_175935-502.webp" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/Gmail (2)/bar-gens-serveurs-comptoir-bar-beaucoup-alcool-interieur-est-style-moderne_175935-502.webp" titre="espace 9" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/Gmail (2)/cocktails-arrangement-shaker-dans-boite-nuit_23-2149093603.webp" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/Gmail (2)/cocktails-arrangement-shaker-dans-boite-nuit_23-2149093603.webp" titre="espace 10" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/Gmail (2)/table-pour-deux-personnes-feuilles-rose_140725-10010.webp" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/Gmail (2)/table-pour-deux-personnes-feuilles-rose_140725-10010.webp" titre="espace 11" class="img-fluid">
+              </a>
+            </div>
+          </div>        
+        </div>
+      </div>
+
+      </div>
+    </section><!-- End Gallery Section -->
+
+    <!-- ======= Chefs Section ======= -->
+    <section id="chefs" class="chefs">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Chefs</h2>
+          <p>Our Proffesional Chefs</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="100">
+              <img src="assets/img/Gmail (1)/chef1.webp" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Walter White</h4>
+                  <span>Master Chef</span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="200">
+              <img src="assets/img/Gmail (1)/chef2.webp" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Sarah Jhonson</h4>
+                  <span>Patissier</span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="300">
+              <img src="assets/img/Gmail (1)/chef3.webp" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>William Anderson</h4>
+                  <span>Cook</span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="300">
+              <img src="assets/img/Gmail (1)/chef4.webp" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>William Anderson</h4>
+                  <span>Cook</span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Chefs Section -->
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-5 col-md-6">
+            <div class="footer-info">
+              <h3>Seat To Eat</h3>
+              <p>
+              Manzah 9 <br>
+                Ariana, Tunis<br><br>
+                <strong>Téléphone:</strong> +216 51 819 776 <br>
+                <strong>E-mail:</strong> Seat_To_Eat@gmail.com<br>
+              </p>
+            
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-md-6 footer-links">
+            <h4>Liens</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Accueil</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Livraison</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Contact</a></li>
+            </ul>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
